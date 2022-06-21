@@ -5,6 +5,7 @@
   scrollbar-width: auto;
   scrollbar-color: #333 #000;
 }
+
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 12px;
@@ -45,12 +46,33 @@
     transform: translateY(-10px) size(1);
   }
 }
+
 #stacked {
   display: flex !important;
   flex-wrap: nowrap !important;
   flex-direction: column !important;
   align-items: center !important;
 }
+
 #smallDeviceGrid {
   min-width: 100% !important;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }

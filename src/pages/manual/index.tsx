@@ -1,6 +1,6 @@
 // prettier-ignore
 
 const Download = () => {
-  return <>Manual is not available yet</>;
+  return <div className="content">Sorry, but the manual is not available yet.</div>;
 };
 export default Download;
