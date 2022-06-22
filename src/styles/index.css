@@ -1,78 +1,78 @@
-/* ScrollBar */
+ /* ScrollBar */
 
-/* Firefox */
-* {
-  scrollbar-width: auto;
-  scrollbar-color: #333 #000;
-}
+ /* Firefox */
+ * {
+   scrollbar-width: auto;
+   scrollbar-color: #333 #000;
+ }
 
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 12px;
-}
+ /* Chrome, Edge, and Safari */
+ *::-webkit-scrollbar {
+   width: 12px;
+ }
 
-*::-webkit-scrollbar-track {
-  background: #010101;
-}
+ *::-webkit-scrollbar-track {
+   background: #010101;
+ }
 
-*::-webkit-scrollbar-thumb {
-  background-color: #333;
-  border-radius: 5px;
-  border: 3px none #ffffff;
-}
+ *::-webkit-scrollbar-thumb {
+   background-color: #333;
+   border-radius: 5px;
+   border: 3px none #ffffff;
+ }
 
-.text-white {
-  color: white !important;
-}
+ .text-white {
+   color: white !important;
+ }
 
-.breath {
-  animation: breath 4s ease-out infinite normal;
-}
+ .breath {
+   animation: breath 4s ease-out infinite normal;
+ }
 
-@keyframes breath {
-  0% {
-    transform: translateY(0) size(1);
-  }
+ @keyframes breath {
+   0% {
+     transform: translateY(0) size(1);
+   }
 
-  25% {
-    transform: translateY(-4px) size(1);
-  }
+   25% {
+     transform: translateY(-4px) size(1);
+   }
 
-  60% {
-    transform: translateY(-6px) scale(1.02);
-  }
+   60% {
+     transform: translateY(-6px) scale(1.02);
+   }
 
-  100% {
-    transform: translateY(-10px) size(1);
-  }
-}
+   100% {
+     transform: translateY(-10px) size(1);
+   }
+ }
 
-#stacked {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-  flex-direction: column !important;
-  align-items: center !important;
-}
+ #stacked {
+   display: flex !important;
+   flex-wrap: nowrap !important;
+   flex-direction: column !important;
+   align-items: center !important;
+ }
 
-#smallDeviceGrid {
-  min-width: 100% !important;
-}
+ #smallDeviceGrid {
+   min-width: 100% !important;
+ }
 
-#__next {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+ #__next {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
 
-html,
-body {
-  height: 100%;
-}
+ html,
+ body {
+   height: 100%;
+ }
 
-.content {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-}
+ .page-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0;
+   flex: 1;
+ }
