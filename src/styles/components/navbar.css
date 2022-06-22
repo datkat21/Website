@@ -57,7 +57,7 @@
   background-color: transparent;
 }
 
-.navigation-clean .navbar-nav>li>.dropdown-menu {
+.navigation-clean .navbar-nav > li > .dropdown-menu {
   margin-top: -5px;
   box-shadow: none;
   background-color: #fff;
@@ -117,7 +117,7 @@
 }
 
 .navigation-clean-search .navbar-nav a.active,
-.navigation-clean-search .navbar-nav>.show>a {
+.navigation-clean-search .navbar-nav > .show > a {
   background: none;
   box-shadow: none;
 }
